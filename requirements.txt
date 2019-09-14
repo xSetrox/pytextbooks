@@ -1,0 +1,4 @@
+isbnlib==3.9.8
+requests==2.21.0
+beautifulsoup4==4.8.0
+libgenapi==1.2.1
