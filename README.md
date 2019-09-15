@@ -1,5 +1,5 @@
 # pyTextbooks
-pyBooks is a Python 3.7 command-based program to search Library Genesis via ISBN and fetch direct download links.
+pyTextbooks is a Python 3.7 command-based program to search Library Genesis via ISBN and fetch direct download links.
 
 
 ## Setup
