@@ -1,4 +1,4 @@
-# pyBooks
+# pyTextbooks
 pyBooks is a Python 3.7 command-based program to search Library Genesis via ISBN and fetch direct download links.
 
 
@@ -12,7 +12,7 @@ Add this link at your own risk. Good luck finding proxies.
 Converting libgendomain to a list with multiple domains *should* work due to how LibGenAPI works- I have not tried.
 
 ## Usage
-Either run pybooks.py directly i.e simply `python pybooks.py` or add an ISBN as an option such as `python pybooks.py 9780321202178`
+Either run pytextbooks.py directly i.e simply `python pytextbooks.py` or add an ISBN as an option such as `python pytextbooks.py 9780321202178`
 
 The program will guide you through all the other steps. It does all the work, but will ask you if you'd like things such as seeing the cover page, if you want to actually download it, and if it can't verify something, your permission to search anyways.
 
