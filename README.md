@@ -3,7 +3,7 @@ pyTextbooks is a Python 3.7 command-based program to search Library Genesis via 
 
 
 ## Setup
-The only setup necessary: You *must* complete line 7 of the code to specify a Library Genesis domain. Otherwise this will not work.
+The only setup necessary: You *must* complete line 17 of the code to specify a Library Genesis domain. Otherwise this will not work.
 
 `libgendomain = "libgendomain.com"`
 
