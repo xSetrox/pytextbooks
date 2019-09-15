@@ -17,7 +17,7 @@ Either run pybooks.py directly i.e simply `python pybooks.py` or add an ISBN as 
 The program will guide you through all the other steps. It does all the work, but will ask you if you'd like things such as seeing the cover page, if you want to actually download it, and if it can't verify something, your permission to search anyways.
 
 ## Book downloads
-The program simply opens direct download links (to .pdf's and .epub's) in the user's default web browser, as a way of downloading the files easily. The file does not handle the download in any way, and the speeds are entirely dependent on the mirror(s) the file(s) are from. 
+The program simply opens direct download links (to .pdf's and .epub's) in the user's default web browser, as a way of downloading the files easily. The program does not handle the download in any other way, and the speeds are entirely dependent on the mirror(s) the file(s) are from. 
 
 ## Requirements
 Although the program has a requirements.txt that you can run `pip install -r requirements.txt` on, the requirements are:
