@@ -12,9 +12,11 @@ Add this link at your own risk. Good luck finding proxies.
 Converting libgendomain to a list with multiple domains *should* work due to how LibGenAPI works- I have not tried.
 
 ## Usage
-Either run pytextbooks.py directly i.e simply `python pytextbooks.py` or add an ISBN as an option such as `python pytextbooks.py 9780321202178`
+You have two options:
+1. Run pytextbooks.py directly i.e simply `python pytextbooks.py`, and then input your ISBN's. Yes, this supports multiple, so just put them in the line when prompted all at once.
+2. Run the script with ISBN's as the arguments, ie `python pytextbooks.py 9780321202178`. Also has support for multiple ISBN's, so list them away.
 
-The program will guide you through all the other steps. It does all the work, but will ask you if you'd like things such as seeing the cover page, if you want to actually download it, and if it can't verify something, your permission to search anyways.
+The program will guide you through all the other steps. It does all the work for you.
 
 ## Book downloads
 The program simply opens direct download links (to .pdf's and .epub's) in the user's default web browser, as a way of downloading the files easily. The program does not handle the download in any other way, and the speeds are entirely dependent on the mirror(s) the file(s) are from. 
