@@ -5,7 +5,8 @@ pyTextbooks is a Python 3.7 command-based program to search Library Genesis via 
 ## Setup
 The only setup necessary: You *must* complete line 17 of the code to specify a Library Genesis domain. Otherwise this will not work.
 
-`libgendomain = "libgendomain.com"`
+`libgendomain = "http://libgendomain.com"`
+This will only work if http:// is in front of the domain!
 
 I am leaving domains out to avoid DMCA takedowns; other than the link, no code in this program has any pirated material.
 Add this link at your own risk. Good luck finding proxies.
