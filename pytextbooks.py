@@ -41,21 +41,17 @@ def getisbninfo(isbninput):
         # meta actually queries the database and outputs a dictionary containing authors and other info
         try:
             foundbook = isbnlib.meta(isbninput)
+            print("ISBN: " + isbninput)
+            print("Title: " + foundbook['Title'] + "\n")
+            # make new line not just for clean format but also cause we cant concatenate list + string
+            print("Author(s): ")
+            # separate each part of the dict. into separate lines
+            print("\n".join(foundbook['Authors']))
+            # open coverimage in browser so user can verify its the right book
+            searchlibgen(isbninput)
         except:
-            tryanyways = input("ISBN could not be found on Google Books. Search libgen anyways? Y/N: ").upper()
-            if (tryanyways == "Y"):
-                searchlibgen(isbninput)
-                return
-            else:
-                return
-        print("ISBN: " + isbninput)
-        print("Title: " + foundbook['Title'] + "\n")
-        # make new line not just for clean format but also cause we cant concatenate list + string
-        print("Author(s): ")
-        # separate each part of the dict. into separate lines
-        print("\n".join(foundbook['Authors']))
-        # open coverimage in browser so user can verify its the right book
-        searchlibgen(isbninput)
+            print("ISBN could not be found on google books for " + isbninput + ". Searching Libgen anyways...")
+            searchlibgen(isbninput)
     else:
         print(isbninput + " was an invalid ISBN.")
 
