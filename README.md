@@ -1,7 +1,7 @@
 <img src="https://i.imgur.com/R2OVw7E.png" width="600">
 
 # pyTextbooks
-pyTextbooks is a Python 3.7 command-based program to search Library Genesis via ISBN and fetch direct download links.
+pyTextbooks is a Python 3.7 command-based program (with an optional GUI interface) to search Library Genesis via ISBN and fetch direct download links.
 
 ## Setup
 The only setup necessary: You *must* go into config.ini and specify a Library Genesis domain on the `domain =` line. Otherwise this will not work.
