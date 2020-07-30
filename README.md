@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/bMFdBbl.png" width="300">
+<img src="https://i.imgur.com/R2OVw7E.png" width="600">
 
 # pyTextbooks
 pyTextbooks is a Python 3.7 command-based program to search Library Genesis via ISBN and fetch direct download links.
