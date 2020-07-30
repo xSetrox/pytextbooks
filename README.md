@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/bMFdBbl.png" width="300">
+
 # pyTextbooks
 pyTextbooks is a Python 3.7 command-based program to search Library Genesis via ISBN and fetch direct download links.
 
@@ -34,3 +36,4 @@ If you choose to list to a .txt, be wary that *every time* you choose to list to
 ## Requirements
 Requirements are listed in requirements.txt and should be installed via `pip install -r requirements.txt`. 
 You will also, of course, need to have installed any requirements that these requirements have.
+##
