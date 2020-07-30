@@ -2,6 +2,7 @@
 
 # pyTextbooks
 pyTextbooks is a Python 3.7 command-based program (with an optional GUI interface) to search Library Genesis via ISBN and fetch direct download links.
+In the future it may also include additional websites, but so far Ligben seems to be the only "good one".
 
 ## Setup
 The only setup necessary: You *must* go into config.ini and specify a Library Genesis domain on the `domain =` line. Otherwise this will not work.
