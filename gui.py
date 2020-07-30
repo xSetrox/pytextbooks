@@ -3,10 +3,6 @@ from tkinter import *
 from tkinter import messagebox
 import funcs as f
 import webbrowser
-from getpass import getuser
-from sys import platform
-from uuid import getnode as get_mac
-import requests
 
 def submitButton():
     isbns = str(isbnbox.get())
